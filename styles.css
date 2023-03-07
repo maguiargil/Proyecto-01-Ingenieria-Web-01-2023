@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+header{
+    height: 100px;
+    width: 100vw;
+    background-color: #FFF159;
+}
+
+.headerline1{
+    display: flex;
+}
+
+.texto1{
+    padding-left: 187px;
+    padding-bottom: 11px;
+}
+
+.texto2{
+    padding-left: 45.35px;
+    padding-bottom: 11px;
+}
+
+.texto3{
+    padding-left: 34px;
+    padding-bottom: 11px;
+}
+
+.texto4{
+    padding-left: 18px;
+    padding-bottom: 11px;
+}
+
+.texto5{
+    padding-left: 24px;
+    padding-bottom: 11px;   
+}
+
+.texto6{
+    padding-left:170px;
+    padding-bottom: 11px;   
+}
+
+.mllogo{
+    padding-left: 166px;
+    padding-right: 52px;
+    padding-top: 11px;
+    padding-bottom: 24px;
+}
+
+input{
+    height: 23px;
+    width: 238px;
+    padding-left: 15px;
+    padding-right: 346px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
