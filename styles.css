@@ -16,50 +16,90 @@ header{
 
 .headerline1{
     display: flex;
+    /*flex-direction: row;*/
+    /*justify-content:center;*/
+    gap: 52px;
+}
+
+.headerline2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 170px;
 }
 
 .texto1{
-    padding-left: 187px;
-    padding-bottom: 11px;
+    padding-right: 45px;
+    /*padding-bottom: 11px;*/
 }
 
 .texto2{
-    padding-left: 45.35px;
-    padding-bottom: 11px;
+    padding-right: 33px;
+    /*padding-bottom: 11px;*/
 }
 
 .texto3{
-    padding-left: 34px;
-    padding-bottom: 11px;
+    padding-right: 18px;
+    /*padding-bottom: 11px;*/
 }
 
 .texto4{
-    padding-left: 18px;
-    padding-bottom: 11px;
-}
-
-.texto5{
-    padding-left: 24px;
-    padding-bottom: 11px;   
-}
-
-.texto6{
-    padding-left:170px;
-    padding-bottom: 11px;   
+    padding-right: 24px;
+    /*padding-bottom: 11px;*/
 }
 
 .mllogo{
     padding-left: 166px;
-    padding-right: 52px;
+    /*padding-right: 52px;*/
     padding-top: 11px;
     padding-bottom: 24px;
 }
 
 input{
+    margin-top: 8px;
+    margin-bottom: 21px;
     height: 23px;
-    width: 238px;
+    width: 237px;
     padding-left: 15px;
     padding-right: 346px;
-    padding-top: 11px;
+    padding-top: 7px;
     padding-bottom: 9px;
+}
+
+.payment-bar{
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 103px;
+    padding-left: 164px;
+    padding-right: 164px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credit-card-icon{
+    padding-left: 20px;
+}
+
+.icon-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.icon-info-2{
+    font-size: 13px;
+    color:#3483FA;
+}
+
+.bank-icon{
+    padding-left: 116px;
+}
+
+.cash-icon{
+    padding-left: 17px;
+}
+
+.more-payment-methods-icon{
+    padding-left: 116px;
 }
