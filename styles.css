@@ -5,6 +5,12 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main{
+    width:1512px;
+    height:3586px;
+    background-color: #EBEBEB;
+}
+
 .debug{
     border: 1px solid red;
 }
@@ -50,10 +56,10 @@ header{
 }
 
 .mllogo{
-    padding-left: 166px;
+    margin-left: 166px;
     /*padding-right: 52px;*/
-    padding-top: 11px;
-    padding-bottom: 24px;
+    margin-top: 11px;
+    margin-bottom: 24px;
 }
 
 input{
@@ -68,18 +74,25 @@ input{
 }
 
 .payment-bar{
-    background-color: #FFFFFF;
+    width:1184px;
+    height:90px;
+    background-color: #EBEBEB;
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    padding-left: 164px;
-    padding-right: 164px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 164px;
+    margin-right: 164px;
     justify-content: space-around;
     align-items: center;
 }
 
 .credit-card-icon{
     padding-left: 20px;
+}
+
+.payment-bar-items{
+    background-color: #FFFFFF;
+    background-clip: content-box;
 }
 
 .icon-info{
@@ -109,7 +122,8 @@ input{
     display: flex;
     gap: 16px;
     align-items: center;
-    padding-left: 164px;
+    margin-left: 164px;
+    margin-right: 1150px;
 }
 
 .discounts-title-bar-1{
@@ -125,26 +139,34 @@ input{
 .discounts-items{
     display: flex;
     height: 350px;
-    padding-top: 22px;
-    padding-right: 164px;
-    padding-left: 164px;
+    margin-top: 22px;
+    margin-right: 164px;
+    margin-left: 164px;
     justify-content: space-around;
 }
 
 .discounts-items-1{
+    width:224px;
+    height:350px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     /*align-items:center;*/
     /*padding-left: 164px;*/
+    background-color: #FFFFFF;
+    background-clip: content-box;
 }
 
 .discounts-items-2{
+    width:224px;
+    height:350px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     /*align-items: center;*/
     padding-left: 16px;
+    background-color: #FFFFFF;
+    background-clip: content-box;
 }
 
 .discounts-item-info{
@@ -156,7 +178,7 @@ input{
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
-    padding-left: 16px;
+    margin-left: 16px;
 }
 
 .discounts-price{
@@ -179,7 +201,7 @@ input{
     font-family: Roboto;
     font-weight: 600;
     font-size: 13px;
-    padding-left:16px;
+    margin-left:16px;
     color: #00A650;
     display: flex;
     flex-direction: row;
@@ -188,4 +210,69 @@ input{
 .full-delivery-icon{
     padding-left: 5px;
     padding-top: 4px;
+}
+
+.purple-bar{
+    display: flex;
+    height:87px;
+    width:1144px;
+    margin-top: 57px;
+    margin-left: 166px;
+    /*margin-right: 5px;*/
+    background:linear-gradient(to right,#A90F90 50%,#0C1A51 100%);
+    background:linear-gradient();
+}
+
+.purple-bar-text-1{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 24px;
+}
+
+.purple-bar-white-bar{
+    padding-left:  766px;
+    padding-top: 23.5px;
+    padding-bottom: 26.5px;
+}
+
+.purple-bar-discount-info{
+    display:flex;
+    flex-direction: column;
+    padding-top: 23.5px;
+    padding-bottom: 25.5px;
+    padding-left: 6px;
+    /*padding-right: 24.48px;*/
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.purple-bar-discount-info-1{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.purple-bar-discount-info-2-and-3{
+    display: flex;
+    align-items: center;
+}
+
+.purple-bar-discount-info-2{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.purple-bar-discount-info-3{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.purple-bar-white-section{
+    display: flex;
+    height:340px;
+    width:1144px;
+    margin-left: 166px;
+    margin-right: 166px;
+    background-color: #FFFFFF;
 }
