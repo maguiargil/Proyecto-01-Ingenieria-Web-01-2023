@@ -6,7 +6,8 @@
 }
 
 main{
-    width:1512px;
+    width: 100vw;
+    /*width:1512px;*/
     height:3586px;
     background-color: #EBEBEB;
 }
@@ -127,11 +128,13 @@ input{
 }
 
 .discounts-title-bar-1{
+    font-weight: 300;
     font-size: 25px;
     color:#666666;
 }
 
 .discounts-title-bar-2{
+    font-weight: 400;
     font-size: 15px;
     color:#3483FA;
 }
@@ -221,6 +224,8 @@ input{
     /*margin-right: 5px;*/
     background:linear-gradient(to right,#A90F90 50%,#0C1A51 100%);
     background:linear-gradient();
+    align-items: center;
+    border-radius: 5px;
 }
 
 .purple-bar-text-1{
@@ -269,10 +274,142 @@ input{
 }
 
 .purple-bar-white-section{
-    display: flex;
-    height:340px;
+    /*display: flex;*/
+    height:253px;
     width:1144px;
     margin-left: 166px;
     margin-right: 166px;
     background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.p-b-white-section-row-1{
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.p-b-white-section-row-2{
+    display:flex;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+
+.p-b-white-section-row-2-icon-1{
+    /*padding-top: 30px;*/
+    padding-bottom: 26px;
+    padding-left: 25px;
+    padding-right: 17px;
+}
+
+.p-b-white-section-row-2-text-1{
+    display: block;
+    height: 16px;
+    width: 119px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 28px;
+    padding-bottom: 61px;
+    padding-right: 169px;
+}
+
+.p-b-white-section-row-2-icon-2{
+    /*padding-top: 30px;*/
+    padding-bottom: 26px;
+    padding-right: 17px;
+}
+
+.p-b-white-section-row-2-text-2{
+    display: block;
+    height: 16px;
+    width: 101px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 28px;
+    padding-bottom: 61px;
+    padding-right: 187px;
+}
+
+.p-b-white-section-row-2-icon-3{
+    /*padding-top: 30px;*/
+    padding-bottom: 26px;
+    padding-right: 17px;
+}
+
+.p-b-white-section-row-2-text-3{
+    display: block;
+    height: 48px;
+    width: 240px;
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 45px;
+    padding-right: 71px;
+}
+
+.p-b-white-section-row-3{
+    border-top:1px solid #EBEBEB;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 990px;
+    padding-right: 30px;
+}
+
+.p-b-white-section-row-3-button{
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 48px;
+    width: 124px;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 15px;
+    background-color:#3483FA;
+    color:#FFFFFF;
+}
+
+.mercado-puntos-title-bar{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 21px;
+    margin-left: 164px;
+    margin-right: 828px;
+}
+
+.mercado-puntos-title-bar-1{
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.mercado-puntos-title-bar-2{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 15px;
+    color:#3483FA;
+}
+
+.mercado-puntos-promos{
+    width: 1200px;
+    height:266px;
+    /*width:100%;*/
+    margin:auto;
+    display:flex;
+    gap:16px;
+    justify-content: space-between;
 }
