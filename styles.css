@@ -386,7 +386,7 @@ input{
     align-items: center;
     margin-top: 80px;
     margin-bottom: 21px;
-    margin-left: 164px;
+    margin-left: 153px;
     margin-right: 828px;
 }
 
@@ -405,11 +405,186 @@ input{
 }
 
 .mercado-puntos-promos{
-    width: 1200px;
-    height:266px;
-    /*width:100%;*/
-    margin:auto;
+    margin-left: 156px;
+    margin-right: 156px;
     display:flex;
     gap:16px;
+    justify-content: center;
+}
+
+.overlay-positioning{
+    /*width: 100%;*/
+    position: relative;
+}
+  
+.overlay{
+    position: absolute;
+    text-align: left;
+    /*font-size: 30px;*/
+    /*padding-left: 16px;*/
+    color: #FFFFFF;
+ }
+
+.overlay-child-image{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.mercado-puntos-promo-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.mercado-puntos-promo-info-head{
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.mercado-puntos-promo-info-top{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.mercado-puntos-promo-info-bottom{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.overlay-position-puntos-promo{
+    top: 168px;
+    left: 113px;
+}
+
+.descubre-title-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 93px;
+    margin-left: 156px;
+    margin-right: 1238px;
+    padding-bottom: 19px;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.descubre-field{
+    display: flex;
+    justify-content:center;
+    margin-left: 156px;
+    margin-right: 156px;
+    gap:15px
+}
+
+.descubre-item{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:584px;
+    color:#4B4B4B;
+    background-color: #FFFFFF;
+}
+.descubre-item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-weight: 600;
+    padding-left: 32px;
+}
+
+.descubre-item-info-1{
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding-bottom: 11px;
+}
+
+.descubre-item-info-2{
+    font-size: 28px;
+    padding-bottom: 13px;
+}
+
+.descubre-item-info-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3483FA;
+    width: 96px;
+    height: 36px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.tiendas-title-bar{
+    display:flex;
+    gap: 25px;
+    margin-top: 55px;
+    margin-bottom: 21px;
+    margin-left: 164px;
+    margin-right: 905px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiendas-title-bar-1{
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 25px;
+    color:#666666;
+}
+
+.tiendas-title-bar-2{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 15px;
+    color:#3483FA;
+}
+
+.tiendas-cards-container{
+    display: flex;
+    width: 1200px;
+    height: 356px;
+    margin-left: 156px;
+    margin-right: 156px;
     justify-content: space-between;
+}
+
+.tiendas-tarjeta-tienda{
+    width:284px;
+    height:345px;
+    background-color: #FFFFFF;
+}
+
+.tiendas-nombre-tienda{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 24px;
+    color:#333333;
+    padding-top: 56px;
+    padding-bottom: 20px;
+}
+
+.tiendas-fotos-articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tiendas-boton-ver-tienda{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    color:#999999;
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.tiendas-overlay-child-image{
+    position: absolute;
+    bottom: 205px;
+    left: 102px;
 }
